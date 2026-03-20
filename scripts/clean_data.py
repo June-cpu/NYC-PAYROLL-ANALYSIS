@@ -40,11 +40,7 @@ def main():
 	print( "---------------------------------------------------------")
 
 	print(data[[
-    "Base Salary",
-    "Regular Gross Paid",
-    "OT Hours",
-    "Total OT Paid",
-    "Total Other Pay"
+    "Base Salary"
 	]].describe())
 
 	print( "---------------------------------------------------------")
@@ -55,5 +51,5 @@ def main():
 
 
 
-if __name__ == "__main__":
+if __name__ == "__main__": 
 	main()
